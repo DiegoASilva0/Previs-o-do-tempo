@@ -5,11 +5,14 @@ import './index.css'
 
 
 function App() {
+  function pesquisado(cityName){
+    {console.log(cityName)}
+  }
 
   return (
     <main>
       <div className='bg-white rounded-2xl p-[20px] shadow-md shadow-black'>
-       <SearchForm />
+       <SearchForm aoPesquisar={pesquisado}/>
        <CurrentWeather />
       </div>
       
