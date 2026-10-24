@@ -1,16 +1,36 @@
-# React + Vite
+# 🌦️ Previsão do Tempo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meu primeiro projeto desenvolvido com **React**. A aplicação permite pesquisar uma cidade e consultar suas condições climáticas atuais usando dados da **OpenWeather API**.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Pesquisa do clima pelo nome da cidade.
+- Exibição da cidade e do país.
+- Temperatura atual, mínima e máxima informadas pela API.
+- Descrição das condições climáticas e ícone correspondente.
+- Exibição da umidade e da velocidade do vento.
+- Mensagens para campo vazio ou cidade não encontrada.
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- JavaScript
+- React
+- CSS
+- Tailwind CSS
+- Lucide React
+- OpenWeather API
 
-## Expanding the ESLint configuration
+## Aprendizados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este projeto foi desenvolvido para praticar:
+
+- Componentes e props no React.
+- Estado com `useState`.
+- Eventos e formulários.
+- Requisições assíncronas com `fetch`.
+- Integração com uma API externa.
+- Exibição de dados recebidos pela aplicação.
+
+## Sobre o projeto
+
+Este é meu primeiro projeto em React e faz parte da minha jornada de aprendizado em desenvolvimento front-end.
